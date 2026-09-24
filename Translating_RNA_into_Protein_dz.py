@@ -17,5 +17,5 @@ def translate_rna(rna, table):
         protein += amino
     return protein
 rna = input().upper().strip()
-table=load_codon_table("amino_acids.txt")
+table=load_codon_table("/home/user/Документы/dz12/amino_acids.txt")
 print(translate_rna(rna,table))

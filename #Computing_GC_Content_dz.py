@@ -4,7 +4,7 @@ def gc_content(dna: str) -> float:
     c = dna.count('C')
     return (g+c) / len(dna) * 100
 
-file=open("Computing_GC_Content.txt", "r", encoding="utf-8")
+file=open("/home/user/Документы/dz12/Computing_GC_Content.txt", "r", encoding="utf-8")
 data = file.read()
 file.close()
 
